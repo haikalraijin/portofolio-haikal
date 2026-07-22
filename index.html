@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Haikal</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animasi Background Interaktif -->
+<div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-meteor"></i> HAIKAL
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#portfolio">PROJECTS</a></li>
+            <li><a href="#certificates">CERTIFICATES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <button class="btn-download">DOWNLOAD CV <i class="fa-solid fa-download"></i></button>
+        <div class="menu-toggle" id="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="badge">HELLO, I'M</div>
+            <h1 class="hero-title">HAIKAL<br><span>ANJAS PRASETYO</span></h1>
+            
+            <div class="typing-container">
+                <span class="typing-text" id="typing-text"></span>
+            </div>
+
+            <p class="hero-desc">
+                I build, connect, and manage the invisible infrastructure that powers our digital world. Always learning. Always improving.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="location.href='#portfolio'">EXPLORE MY WORK <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="btn-outline" onclick="location.href='#contact'">CONTACT ME <i class="fa-solid fa-envelope"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="section-title"><i class="fa-solid fa-user-astronaut"></i> ABOUT ME</h2>
+        <div class="about-grid">
+            <div class="about-text">
+    <!-- Teks perkenalanmu tetap aman di sini -->
+    <p>I'm Haikal, a Data Center Technician passionate about technology, networking, and building reliable systems. I enjoy solving problems, learning new things, and turning ideas into real solutions.</p>
+    
+    <!-- Container untuk tombol dan menu sosmed -->
+    <div class="social-dropdown-container">
+        <button class="btn-outline" id="btn-more-about">MORE ABOUT ME <i class="fa-solid fa-caret-down"></i></button>
+        
+        <!-- Menu Sosmed yang awalnya tersembunyi -->
+        <div class="social-links-hidden" id="social-links">
+            <a href="https://www.instagram.com/haikal_raijin?igsh=cjh0cjRrN3Y0MXEz" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://tiktok.com/@haikalraijin46" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+            <a href="https://www.linkedin.com/in/haikal-anjas-prasetyo-77763a335?trk=contact-info" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/haikalraijin" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+    </div>
+</div>
+</div>
+            <div class="about-img">
+    <!-- Hapus ikon <i class="..."> dan ganti dengan kode di bawah ini -->
+    <img src="https://i.imgur.com/b3MdF26.jpeg" alt="Foto Haikal" class="my-profile-img">
+</div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title"><i class="fa-solid fa-network-wired"></i> SKILLS</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span>Networking</span>
+                    <i class="fa-solid fa-project-diagram"></i>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+                <div style="text-align: right; font-size: 0.8rem; margin-top: 5px; color: var(--text-muted)">90%</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span>Server Maintenance</span>
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+                <div style="text-align: right; font-size: 0.8rem; margin-top: 5px; color: var(--text-muted)">85%</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span>Linux</span>
+                    <i class="fa-brands fa-linux"></i>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+                <div style="text-align: right; font-size: 0.8rem; margin-top: 5px; color: var(--text-muted)">75%</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span>Troubleshooting</span>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+                <div style="text-align: right; font-size: 0.8rem; margin-top: 5px; color: var(--text-muted)">80%</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title"><i class="fa-solid fa-star"></i> FEATURED PROJECTS</h2>
+        <div class="portfolio-grid">
+            
+            <div class="portfolio-card">
+                <div class="portfolio-img"><i class="fa-solid fa-server"></i></div>
+                <div class="portfolio-info">
+                    <div class="portfolio-badge">Infrastructure</div>
+                    <h3>Data Center Rack Installation</h3>
+                    <p>End-to-end rack installation project including layout planning and cable management.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="portfolio-img"><i class="fa-solid fa-desktop"></i></div>
+                <div class="portfolio-info">
+                    <div class="portfolio-badge">Monitoring</div>
+                    <h3>Server Monitoring System</h3>
+                    <p>A monitoring system to track server performance and status in real-time.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="portfolio-img"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="portfolio-info">
+                    <div class="portfolio-badge">Networking</div>
+                    <h3>Network Configuration</h3>
+                    <p>Configure and optimize network performance for stability and security.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Certificate Section -->
+    <section id="certificates">
+        <h2 class="section-title"><i class="fa-solid fa-certificate"></i> CERTIFICATES</h2>
+        <div class="cert-grid">
+            
+            <div class="cert-card">
+                <!-- Ganti nama file di bawah ini sesuai dengan nama foto sertifikatmu -->
+                <img src="ganti ini" alt="Sertifikat MikroTik" class="cert-img">
+                <h3>MikroTik MTCNA</h3>
+                <p class="cert-date">Issued: 2024</p>
+            </div>
+            
+            <div class="cert-card">
+                <!-- Ganti nama file di bawah ini -->
+                <img src="ganti ini" alt="Sertifikat CCNA" class="cert-img">
+                <h3>Cisco CCNA</h3>
+                <p class="cert-date">Issued: 2025</p>
+            </div>
+            
+            <div class="cert-card">
+                <!-- Ganti nama file di bawah ini -->
+                <img src="ganti ini" alt="Sertifikat CompTIA" class="cert-img">
+                <h3>CompTIA Server+</h3>
+                <p class="cert-date">Issued: 2025</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="contact-box">
+        <h2><i class="fa-regular fa-envelope"></i> LET'S WORK TOGETHER</h2>
+        <p>I'm open to new opportunities and exciting projects.<br>Let's build something amazing!</p>
+        <button class="btn-primary" onclick="window.location.href='mailto:haikalanjasp6@gmail.com'">
+            GET IN TOUCH <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Haikal Anjas Prasetyo. All rights reserved.
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6285794715294" target="_blank" class="wa-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Link ke file JavaScript eksternal -->
+     <!-- Library Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
